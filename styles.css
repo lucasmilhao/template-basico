@@ -34,3 +34,15 @@ main {
         width: 75vw;
     }
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .cards {
+        width: 55vw;
+        border-radius: 12px;
+        background-color: #837f7f;
+    }
+}
