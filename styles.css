@@ -14,6 +14,7 @@ header {
     background-position: center;
     background-size: cover;
     color: aliceblue;
+    font-size: 60px;
 }
 
 main {
@@ -22,6 +23,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    font-size: large;
     
     img {
         width: 75vw;
@@ -41,7 +43,6 @@ footer {
     align-items: center;
     
     .cards {
-        width: 75vw;
         border-radius: 12px;
         background-color: #e2dfdf;
         display: flex;
