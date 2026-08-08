@@ -8,10 +8,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
+    height: 20vh;
     background-image: url("https://www.viagensecaminhos.com/wp-content/uploads/2017/10/portico-flores-da-cunha.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     color: aliceblue;
 }
 
@@ -20,15 +21,16 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
     
     img {
-        width: 55vw;
+        width: 75vw;
     }
 
     .paragrafos {
         display: flex;
         flex-direction: column;
         gap: 20px;
-        width: 55vw;
+        width: 75vw;
     }
 }
