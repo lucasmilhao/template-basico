@@ -25,13 +25,18 @@ footer {
             gap: 10px;
             color: rgb(110, 110, 110);
 
-            img, p {
+            img {
+                width: 75%;
+                height: 180px;
+            }
+
+            p {
                 font-size: 12px;
-                width: 33%;
             }
 
             button {
-                width: 50px;
+                width: fit-content;
+                padding: 5px;
                 border-radius: 5px;
                 color: aliceblue;
                 background-color: #cf6117;
