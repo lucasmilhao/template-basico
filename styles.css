@@ -12,6 +12,36 @@ footer {
     .cards {
         width: 55vw;
         border-radius: 12px;
-        background-color: #837f7f;
+        background-color: #e2dfdf;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+        gap: 10px;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            color: rgb(110, 110, 110);
+
+            img, p {
+                font-size: 12px;
+                width: 33%;
+            }
+
+            button {
+                width: 50px;
+                border-radius: 5px;
+                color: aliceblue;
+                background-color: #cf6117;
+                border: 0;
+                transition-duration: 0.4s;
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
+        }
     }
 }
