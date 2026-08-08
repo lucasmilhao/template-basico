@@ -41,7 +41,7 @@ footer {
     align-items: center;
     
     .cards {
-        width: 55vw;
+        width: 75vw;
         border-radius: 12px;
         background-color: #e2dfdf;
         display: flex;
