@@ -14,3 +14,21 @@ header {
     background-position: center;
     color: aliceblue;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    img {
+        width: 55vw;
+    }
+
+    .paragrafos {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 55vw;
+    }
+}
